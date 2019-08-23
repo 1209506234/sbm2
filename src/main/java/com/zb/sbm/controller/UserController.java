@@ -30,7 +30,7 @@ public class UserController {
         List<User> users = userService.search(condition);
 
         model.addAttribute("users",users);
-
+        System.out.println(11);
         return "list";
     }
 
